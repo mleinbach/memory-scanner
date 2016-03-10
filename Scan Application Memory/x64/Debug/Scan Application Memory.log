@@ -1,0 +1,7 @@
+﻿  main.cpp
+f:\users\mitch\code\random-stuff\scan application memory\scan application memory\scan application memory\main.cpp(89): warning C4477: 'printf' : format string '%08X' requires an argument of type 'unsigned int', but variadic argument 2 has type 'unsigned __int64'
+  f:\users\mitch\code\random-stuff\scan application memory\scan application memory\scan application memory\main.cpp(89): note: consider using '%llX' in the format string
+  f:\users\mitch\code\random-stuff\scan application memory\scan application memory\scan application memory\main.cpp(89): note: consider using '%IX' in the format string
+  f:\users\mitch\code\random-stuff\scan application memory\scan application memory\scan application memory\main.cpp(89): note: consider using '%I64X' in the format string
+f:\users\mitch\code\random-stuff\scan application memory\scan application memory\scan application memory\main.cpp(145): warning C4101: 'unallocated': unreferenced local variable
+  Scan Application Memory.vcxproj -> F:\Users\Mitch\Code\Random-Stuff\Scan Application Memory\Scan Application Memory\x64\Debug\Scan Application Memory.exe

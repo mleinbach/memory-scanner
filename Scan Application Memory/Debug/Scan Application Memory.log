@@ -1,0 +1,25 @@
+﻿Build started 10/2/2015 11:58:10 AM.
+     1>Project "F:\Users\Mitch\Code\Random-Stuff\Scan Application Memory\Scan Application Memory\Scan Application Memory\Scan Application Memory.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp MemScan.cpp
+         MemScan.cpp
+     1>f:\users\mitch\code\random-stuff\scan application memory\scan application memory\scan application memory\memscan.cpp(48): warning C4477: 'printf' : format string '%08X' requires an argument of type 'unsigned int', but variadic argument 2 has type 'unsigned __int64'
+         f:\users\mitch\code\random-stuff\scan application memory\scan application memory\scan application memory\memscan.cpp(48): note: consider using '%llX' in the format string
+         f:\users\mitch\code\random-stuff\scan application memory\scan application memory\scan application memory\memscan.cpp(48): note: consider using '%I64X' in the format string
+     1>f:\users\mitch\code\random-stuff\scan application memory\scan application memory\scan application memory\memscan.cpp(121): warning C4244: 'argument': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>f:\users\mitch\code\random-stuff\scan application memory\scan application memory\scan application memory\memscan.cpp(122): warning C4244: 'argument': conversion from 'unsigned __int64' to 'SIZE_T', possible loss of data
+     1>f:\users\mitch\code\random-stuff\scan application memory\scan application memory\scan application memory\memscan.cpp(137): warning C4244: 'argument': conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>f:\users\mitch\code\random-stuff\scan application memory\scan application memory\scan application memory\memscan.cpp(144): warning C4244: 'argument': conversion from 'unsigned __int64' to 'int', possible loss of data
+         main.cpp
+     1>f:\users\mitch\code\random-stuff\scan application memory\scan application memory\scan application memory\main.cpp(80): warning C4244: 'argument': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>f:\users\mitch\code\random-stuff\scan application memory\scan application memory\scan application memory\main.cpp(82): warning C4244: 'argument': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Users\Mitch\Code\Random-Stuff\Scan Application Memory\Scan Application Memory\Debug\Scan Application Memory.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\Users\Mitch\Code\Random-Stuff\Scan Application Memory\Scan Application Memory\Debug\Scan Application Memory.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Users\Mitch\Code\Random-Stuff\Scan Application Memory\Scan Application Memory\Debug\Scan Application Memory.lib" /MACHINE:X86 Debug\main.obj
+         Debug\MemScan.obj
+         Scan Application Memory.vcxproj -> F:\Users\Mitch\Code\Random-Stuff\Scan Application Memory\Scan Application Memory\Debug\Scan Application Memory.exe
+     1>Done Building Project "F:\Users\Mitch\Code\Random-Stuff\Scan Application Memory\Scan Application Memory\Scan Application Memory\Scan Application Memory.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.62

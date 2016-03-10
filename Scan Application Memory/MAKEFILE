@@ -1,0 +1,20 @@
+CC=g++
+CFLAGS=-c
+LDFLAGS=-ll -ly
+SOURCES=MemScan.cpp main.cpp
+OBJECTS=$(SOURCES:*.cpp=.o)
+CLEAN=$(OBJECTS) tube2-lexer.c *.tab.* *~
+EXECUTABLE=tube2
+
+# Auto clean automatically generated files 
+
+all: $(SOURCES) $(EXECUTABLE)
+
+$(EXECUTABLE): $(OBJECTS)
+	$(CC) -o $@ $(OBJECTS) $(LDFLAGS)
+
+.cpp.o:
+	$(CC) $(CFLAGS) $< -o $@
+
+.c.o:
+	$(CC) $(CFLAGS) $< -o $@
